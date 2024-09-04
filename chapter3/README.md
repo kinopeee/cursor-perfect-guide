@@ -41,7 +41,6 @@ Composer はファイルの作成ができるので、大きくなったファ�
 0.34.2以降、@Lint error は表示されなくなっています。この現象については、公式フォーラム、公式リポジトリで不具合で修正を行なっていると説明されていますが、現在のところ変化は見られません。
 
 https://forum.cursor.com/t/is-lint-errors-gone-in-0-34-2/5427
-
 https://github.com/getcursor/cursor/issues/1470
 
 ## 📘「Apply」、「Copy」、 「Reply」ボタン
