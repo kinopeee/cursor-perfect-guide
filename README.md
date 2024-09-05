@@ -1,17 +1,20 @@
 # 「AIエディタCursor完全ガイド」 サポート
 
-![AIエディタCursor完全ガイド](images/cover_cursor_boook.jpg)
-
 ## 📕 このGitHubリポジトリについて
 
 書籍「AIエディタCursor完全ガイド」 について下記のサポートを行うリポジトリです。
 
-- 書籍に掲載されているハンズオン用コード、サンプルコード、プロンプトの公開。
+- 書籍に掲載されているハンズオン用コード、生成されたサンプルコード、プロンプトの公開。
 - 原稿を書き上げた後の Cursor のアップデートによる変更点の補足説明。
 
 まだお持ちでない方は、ぜひお買い求めください！
 
-[![AIエディタCursor完全ガイド](images/amazon.png)](https://amzn.to/4c2tjdt)
+[![AIエディタCursor完全ガイド](images/cover_cursor_boook.jpg)](https://amzn.to/4c2tjdt)
+
+## 🌟 アップデート情報 🌟
+
+- 2024/9/4 書籍発売日に備えた初版リリース。
+- 2024/9/5 「第6章 Cursor開発テクニック」で Composer Projects の説明を追加。
 
 ## 📕 このリポジトリの構成
 
@@ -19,12 +22,12 @@
 
 ### 📘 第1章 Cursor の導入
 
-#### 📗 P2
+#### 📗 Cursor の概要（P2）
 
 本書内では OpenAI などからの Anysphere 社への出資の紹介をしていますが、2024年8月22日に、Stripe、Github、Ramp、Perplexity、OpenAI の創設者などから、さらに6000万ドル（約88億円）の出資があったことが公式にアナウンスされました。心強いニュースですね。
 - [We Raised $60M](https://www.cursor.com/blog/series-a)
 
-#### 📗 P3 Cursorの料金体系
+#### 📗 Cursorの料金体系（P3）
 
 - 「高速 GTP-4」という呼び方から「高速プレミアムモデル」に変更になっています。
 - 「高速プレミアムモデル」には下記モデルが含まれます。
@@ -37,10 +40,10 @@
 
 [🔗 プロンプト](chapter2/PROMPT.md)
 
-- 2024年6月以前に Cursor をインストールされた方は、書籍の手順通りで操作を進めていただくことができます。
-- ローカルに「.cursor-tutor」フォルダがない場合は、下記のリポジトリからダウンロードしてご利用ください。
-
 [🔗 「cursor-tutor」リポジトリ](https://github.com/kinopeee/cursor-tutor/)
+
+- 2024年6月以前に Cursor をインストールされた方は、書籍の手順通りで操作を進めていただくことができます。
+- ローカルに「.cursor-tutor」フォルダがない場合は、「cursor-tutor」リポジトリをダウンロードしてご利用ください。
 
 ### 📘 第3章 Cursor の基本操作
 
