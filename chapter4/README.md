@@ -17,7 +17,7 @@
 - enabled / disenabled：Composer のオン、オフの切り替え（0.40でデフォルト有効）
 - Always keep composer in bound：オンにすると、Composer の四辺から一定の処理を保ちます。
 - Composer projects：オンにすると、複数の Composer で履歴や資料ファイルを共有する project を使うことができます。
-- Cmd+P for file picker：Composer 内で Cmd+P ショートカットキーでファイルピッカーを表示する機能のオン、オフ切り替え。
+- Cmd+P for file picker：オンにすると、Composer 内で ⌘+P（macOS）またはCtrl+P（Windows）ショートカットキーでファイルピッカーを表示することができます。
 - Show suggested files：オンにすると、ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めファイル）。
 
 ![](../images/suggestedfiles.png)
