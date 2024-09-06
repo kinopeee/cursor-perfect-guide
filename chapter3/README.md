@@ -61,6 +61,9 @@ Composer はファイルの作成ができるので、大きくなったファ�
 
 ![](../images/ask_button.png)
 
+提案されたコードブロックの下に淡く表示されていた「Apply」、「Reply」、「Copy」ボタン（以下の図参照）が表示されなくなっています。
+
+![](../images/apply_button_lost.png)
 
 ## 📘 /edit コマンド
 
