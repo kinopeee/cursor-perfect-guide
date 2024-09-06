@@ -10,6 +10,32 @@
 ![](../images/docs_on_features.png)
 また、インデックスされた日付、時刻も表示されるようになりました。
 
+### 📗 Composer
+
+![](../images/composer_setting.png)
+
+- enabled / disenabled：Composer のオン、オフの切り替え（0.40でデフォルト有効）
+- Always keep composer in bound：オンにすると、Composer の四辺から一定の処理を保ちます。
+- Composer projects：オンにすると、複数の Composer で履歴や資料ファイルを共有する project を使うことができます。
+- Cmd+P for file picker：Composer 内で Cmd+P ショートカットキーでファイルピッカーを表示する機能のオン、オフ切り替え。
+- Show suggested files：オンにすると、ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めファイル）。
+
+![](../images/suggestedfiles.png)
+
+### 📗 Chat
+
+![](../images/chat_setting.png)
+
+- Narrow scrollbar：AIペインのチャットエリア右横のスクロールバーの横幅が小さくなります。
+- Auto scroll chat：オンにすると、AIからの回答の長さに応じて自動的にスクロール表示します。その時プロンプト入力欄は下部に固定されます。
+
+![](../images/autoscrollchat.png)
+
+- Show chat history：オンにすると、プロンプト入力欄の下にチャット履歴が表示されます。
+- Show suggested files：オンにすると、ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めファイル）。
+
+
+
 ## 📘 4.4 ▼INTERPRETER MODE(BETA)
 
 本書で何度もご紹介した Interpreter Mode は、0.40 からチャットモードのプルダウンで表示されなくなりました。廃止になったとの公式なアナウンスはありませんが、公式フォーラムで Interpreter Mode の不調に対して Composer で代替するアドバイスが Anysphere メンバーから付いていることから、廃止になった可能性があります。
