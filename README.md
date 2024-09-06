@@ -34,7 +34,7 @@
     1. GPT-4
     2. GPT-4o
     3. Claude 3.5 Sonnet
-- 料金ページには記載されていませんが、GPT-4o mini は料金体系上 cursor-small と同じ扱いになっています（コストパフォーマンスが良いので、活用の価値が高い）。
+- [料金ページ](https://www.cursor.com/pricing)には記載されていませんが、GPT-4o mini は料金体系上 cursor-small と同じ扱い（Pro 以上は回数制限なし）になっています（コストパフォーマンスが良いので、活用の価値が高い）。
 
 ### 📘 第2章 Cursor の基本操作
 
