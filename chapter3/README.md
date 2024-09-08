@@ -6,11 +6,11 @@
 
 ## 📘 ▼チャットモードの切り替え / 3.2 Interpreter Mode
 
-チャットモードのプルダウンが表示されない場合、P.127を参照して「LONG CONTEXT CHAT (BETA)」の設定をオンにしてください。
+チャットモードのプルダウンが表示されない場合、P.127を参照して「LONG CONTEXT CHAT (BETA)」の設定を「enabled」（有効）にしてください。
 
 ![](../images/long_context_chat.png)
 
-Interpreter Mode は、0.40 からチャットモードのプルダウンで表示されなくなりましたが、Long Context Chat の設定がオフの状態だと、選択できるチャットモードが Normal Chat しかなくなるためか（選択不要）、プルダウン自体の表示がなくなるようです。
+Interpreter Mode は、0.40 からチャットモードのプルダウンで表示されなくなりましたが、Long Context Chat の設定が「disabled」（無効）の状態だと、選択できるチャットモードが Normal Chat しかなくなるためか（選択不要）、プルダウン自体の表示がなくなるようです。
 
 Interpreter Mode が表示されなくなったことについては、廃止のアナウンスはありませんが、公式フォーラムで Interpreter Mode の不調に対して Composer で代替するアドバイスが Anysphere メンバーから付いていることから、廃止になった可能性があります。
 
