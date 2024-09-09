@@ -20,6 +20,8 @@ top -l 1 | grep PhysMem | awk '{print "メモリ使用率: " $3}'; df -h | grep 
 mogrify -resize 50% -format png -path resized *.png
 ```
 
+- サンプルデータは [🔗こちら](sampledata/5.2_5.3/README.md) をお使いください。
+
 ## 📘 5.3 画像の一括形式変換、ファイル名変更、保存
 
 <kbd>zsh</kbd>
@@ -36,6 +38,9 @@ for> gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile="${pattern}_converte
 for> done
 ```
 
+- サンプルデータは [🔗こちら](sampledata/5.4/README.md) をお使いください。
+
+
 ## 📘 5.5 テキストファイルの結合
 
 <kbd>zsh</kbd>
@@ -43,12 +48,16 @@ for> done
 cat a.txt b.txt c.txt > merged.txt
 ```
 
+- サンプルデータは [🔗こちら](sampledata/5.5/README.md) をお使いください。
+
 ## 📘 5.6 ログファイルからエラー行を抽出して保存
 
 <kbd>zsh</kbd>
 ```
 grep 'ERROR:' app.log > errors.log
 ```
+
+- サンプルデータは [🔗こちら](sampledata/5.6/README.md) をお使いください。
 
 ## 📘 5.7 CSV ファイルのデータ検証
 
@@ -78,12 +87,16 @@ awk -F, '
 ' data.csv
 ```
 
+- サンプルデータは [🔗こちら](sampledata/5.7/README.md) をお使いください。
+
 ## 📘 5.8 大量ファイルの文字コード一括変換
 
 <kbd>zsh</kbd>
 ```
 find . -type f -name "*.txt" -exec sh -c 'mkdir -p SJIS; nkf -s -Lw "$1" > "/tmp/${1##*/}"; mv "/tmp/${1##*/}" "SJIS/${1##*/}"' _ {} \;
 ```
+
+- サンプルデータは [🔗こちら](sampledata/5.8/README.md) をお使いください。
 
 ## 📘 5.9 生成されたコマンドのシェルスクリプト化
 
@@ -147,6 +160,8 @@ df['date'] = df['date'].apply(convert_to_standard_date_format)
 # 結果の保存
 df.to_csv('hiduke_converted.csv', index=False, header=False)
 ```
+
+- サンプルデータは [🔗こちら](sampledata/5.10/README.md) をお使いください。
 
 ## 📘 5.11 CLI 三目並べPython プログラムをGolang に変換
 

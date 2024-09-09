@@ -1,0 +1,6 @@
+ID,Age,Name,Date,Email,Phone
+1,25,John,2023-05-26,john@example.com,1234567890
+2,30,Alice,,alice@example.com,9876543210
+3,,Bob,2023-05-28,bob@example.com,5555555555
+4,1.5,Charlie,2023/05/29,charlie@example.com,0987654321
+5,40,Eve,2023-05-30,,0123456789

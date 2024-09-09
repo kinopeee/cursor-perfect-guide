@@ -1,0 +1,27 @@
+2023-05-26 10:00:00 INFO: Application started
+2023-05-26 10:00:30 DEBUG: Loading configuration file
+2023-05-26 10:00:31 INFO: Configuration loaded successfully
+2023-05-26 10:01:00 DEBUG: Initializing database connection
+2023-05-26 10:01:02 INFO: Database connection initialized
+2023-05-26 10:01:15 DEBUG: User request received
+2023-05-26 10:01:16 DEBUG: Processing user request
+2023-05-26 10:01:16 ERROR: NullPointerException at Main.java:51
+2023-05-26 10:01:16 ERROR: at Main.processRequest(Main.java:51)
+2023-05-26 10:01:16 ERROR: at Main.main(Main.java:25)
+2023-05-26 10:01:17 INFO: User request processed
+2023-05-26 10:01:45 DEBUG: Updating user session
+2023-05-26 10:01:46 INFO: User session updated
+2023-05-26 10:02:00 DEBUG: Retrieving data from cache
+2023-05-26 10:02:01 INFO: Data retrieved from cache
+2023-05-26 10:02:30 DEBUG: Database connection established
+2023-05-26 10:02:31 DEBUG: Executing SQL query
+2023-05-26 10:02:31 ERROR: SQLException: Table 'users' doesn't exist
+2023-05-26 10:02:31 INFO: Database connection closed
+2023-05-26 10:02:45 WARN: Low memory warning
+2023-05-26 10:02:50 DEBUG: Garbage collector started
+2023-05-26 10:02:55 INFO: Garbage collector finished
+2023-05-26 10:03:00 INFO: Application stopped
+2023-05-26 10:03:01 DEBUG: Saving application state
+2023-05-26 10:03:02 INFO: Application state saved
+2023-05-26 10:03:05 DEBUG: Shutting down database connection
+2023-05-26 10:03:06 INFO: Database connection closed
