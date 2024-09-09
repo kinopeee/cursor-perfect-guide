@@ -81,3 +81,7 @@ Interpreter Mode が表示されなくなったことについては、廃止の
 
 - 「Reset」コマンド：その CHAT、Composer のセッション情報がリセットされます（空の CHAT、Composer になります）。
 - 「Reference Open Editers」コマンド：エディターで開いているファイルがまとめて、ファイルピッカーで選択される操作になります。
+
+## 📘 3.5 Auto Terminal Debug
+
+設定の「Rules for AI」（P.101掲載）に日本語で回答するルールが設定されていれば、「Debug with AI」ボタンを実行した回答が日本語で返るようになりました。
