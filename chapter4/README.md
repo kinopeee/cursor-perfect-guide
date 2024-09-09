@@ -17,8 +17,8 @@
 ![](../images/composer_setting.png)
 
 - enabled / disenabled：Composer のオン、オフの切り替え（0.40でデフォルト有効）
-- Always keep composer in bound：オンにすると、Composer の四辺から一定の処理を保ちます。
-- Composer projects：オンにすると、複数の Composer で履歴や資料ファイルを共有する project を使うことができます。
+- Always keep composer in bound：オンにすると、Composer のフローティングを移動してもウィンドウの四辺から一定の処理を保つようになります。
+- Composer projects：オンにすると、複数の Composer で履歴や資料ファイルを共有する Project を使うことができます。
 - Cmd+P for file picker：オンにすると、Composer 内で ⌘+P（macOS）またはCtrl+P（Windows）ショートカットキーでファイルピッカーを表示することができます。
 - Show suggested files：オンにすると、ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めファイル）。
 
@@ -51,4 +51,4 @@ Composer はファイルの作成ができるので、大きくなったファ�
 ## 📘 4.5 Help
 
 Help 機能は廃止されました。
-使い方を質問する専用のチャットはなくなりましたが、AIペインの Normal Chatに質問することで使用方法についても回答を得られる場合があります。
+使い方を質問する専用のチャットはなくなりましたが、AIペインの Normal Chat に質問することで使用方法についても回答を得られる場合があります。他に情報が見つからない時に有益な情報源ですが、この点はハルシネーションが多めで、回答をそのまま信じるのではなく、回答にもとづいて手元の動作で検証を行うことが大切です。
