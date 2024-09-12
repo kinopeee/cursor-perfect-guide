@@ -48,6 +48,8 @@
 
 ### 📘 第2章 Cursor の基本操作
 
+[🔗 スクリーンショット](chapter2/SCREENSHOT.md)
+
 [🔗 プロンプト](chapter2/PROMPT.md)
 
 [🔗 「cursor-tutor」リポジトリ](https://github.com/kinopeee/cursor-tutor/)
