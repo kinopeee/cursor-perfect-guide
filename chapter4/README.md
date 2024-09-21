@@ -17,8 +17,8 @@
 ![](../images/composer_setting.png)
 
 - enabled / disenabled：Composer のオン、オフの切り替え（0.40でデフォルト有効）
-- Always keep composer in bound：オンにすると、Composer のフローティングを移動してもウィンドウの四辺から一定の処理を保つようになります。
-- Composer projects：オンにすると、複数の Composer で履歴や資料ファイルを共有する Project を使うことができます。
+- Always keep composer in bound：Composer のフローティングを移動してもウィンドウの四辺から一定の処理を保つようになります。
+- ~~Composer projects：複数の Composer で履歴や資料ファイルを共有する Project を使うことができます~~（注：0.41でこの設定は廃止になりました。Project の後継 Notepads はデフォルトで有効です）。
 - Cmd+P for file picker：オンにすると、Composer 内で ⌘+P（macOS）またはCtrl+P（Windows）ショートカットキーでファイルピッカーを表示することができます。
 - Show suggested files：オンにすると、ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めファイル）。
 
@@ -29,17 +29,29 @@
 ![](../images/chat_setting.png)
 
 - Narrow scrollbar：AIペインのチャットエリア右横のスクロールバーの横幅が小さくなります。
-- Auto scroll chat：オンにすると、AIからの回答の長さに応じて自動的にスクロール表示します。その時プロンプト入力欄は下部に固定されます。
+- Auto scroll chat：AIからの回答の長さに応じて自動的にスクロール表示します。その時プロンプト入力欄は下部に固定されます。
 
 ![](../images/autoscrollchat.png)
 
-- Show chat history：オンにすると、プロンプト入力欄の下にチャット履歴が表示されます。
+- Show chat history：プロンプト入力欄の下にチャット履歴が表示されます。
 
 ![](../images/chat_history.png)
 
-- Show suggested files：オンにすると、ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めされたファイル）。
+- Show suggested files：ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めされたファイル）。
 
 ![](../images/suggestedfiles.png)
+
+### 📗 Cursor Tab
+
+Copilot++ は Cursor Tab という呼称に変わりました。
+
+![](../images/cursor_tab_setting.png)
+
+- enabled / disabled：Cursor Tab の有効、無効を切り替えます。
+- Partial Accepts：editor.action.inlineSuggest.acceptNextWordキーバインド（初期値→）を使用して、提案された次の単語を受け入れることができます。
+- Cursor Prediction：Cursor Tab の提案を受け入れた後に移動する次の行を予測し、タブで受け入れることができます。
+- Trigger in Comments：コメントで Cursor Tab の提案を有効または無効にする。
+- Auto Import：Cursor Tab で必要なモジュールをインポートする（TypeScriptとPythonのみ対応）。
 
 ## 📘 4.4 ▼INTERPRETER MODE(BETA)
 
