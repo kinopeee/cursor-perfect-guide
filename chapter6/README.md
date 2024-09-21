@@ -44,6 +44,14 @@
 
 ----
 
+- Notepads はチャットや Composerから @ によるシンボル参照も可能です。以下のスクリーンショットは指定の手順と結果の画面です。
+
+![](../images/symbol_to_notepads_before.png)
+
+![](../images/symbol_to_notepads_after.png) 
+
+----
+
 ### Composer の AI ペイン内表示
 
 Composer を AI ペイン内に表示することができるようになりました。
