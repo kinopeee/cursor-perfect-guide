@@ -14,15 +14,16 @@
 
 ### 📗 Composer
 
-![](../images/composer_setting.png)
+![](../images/Composer_setting_0.42.png)
 
-- enabled / disenabled：Composer のオン、オフの切り替え（0.40でデフォルト有効）
-- Always keep composer in bound：Composer のフローティングを移動してもウィンドウの四辺から一定の処理を保つようになります。
-- ~~Composer projects：複数の Composer で履歴や資料ファイルを共有する Project を使うことができます~~（注：0.41でこの設定は廃止になりました。Project の後継 Notepads はデフォルトで有効です）。
-- Cmd+P for file picker：オンにすると、Composer 内で ⌘+P（macOS）またはCtrl+P（Windows）ショートカットキーでファイルピッカーを表示することができます。
-- Show suggested files：オンにすると、ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めファイル）。
-
-![](../images/suggestedfiles.png)
+- enabled / disenabled：Composer のオン、オフの切り替え（デフォルト有効）
+- Always keep composer in bound：フローティング Composer を移動してもウィンドウの四辺から一定の処理を保つようになります。
+- Cmd+P for file picker：Composer 内で ⌘+P（macOS）またはCtrl+P（Windows）ショートカットキーでファイルピッカーを表示することができます。
+- Show suggested files：Cursor が開くことを予測したファイルのリストが表示されます（薄い文字で表示されます）。
+- Collapse input box pills in pane：入力ボックスのコード、テキストを折りたたみ表示してスペースを節約します。
+- Composer persistence：Cursorの再起動をまたいで履歴を保存します。
+- Iterate on lints (BETA)：lintエラーがある場合、コンポーザーは修正を再試行します。
+- Composer bar anchor：フローティング Composer がデフォルト表示される位置を設定します（Left / Center / Right から選択）。
 
 ### 📗 Chat
 
