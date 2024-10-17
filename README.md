@@ -29,6 +29,7 @@
 | 2024/09/25 | o1-mini の利用上限についての記載を追加（第1章、本ページ）。                                                                                                                |
 | 2024/10/11 | 0.42 に対応。変更事項については [Cursorの変更履歴ページ](https://changelog.cursor.com/?nightly=true#042---composer-history-lint-errors-vs-code-1931-) を参照してください。 |
 | 2024/10/13 | 0.42 での Composer 設定の変更に対応。                                                                                                                                      |
+| 2024/10/17 | 0.42.3 対応（Composer のコンテキスト外ファイルへの適用設定）。料金表の掲載。                                                                                               |
 
 ## 📕 このリポジトリの構成
 
@@ -48,8 +49,9 @@
     1. GPT-4
     2. GPT-4o
     3. Claude 3.5 Sonnet
-- [料金ページ](https://www.cursor.com/pricing)には記載されていませんが、GPT-4o mini は料金体系上 cursor-small と同じ扱い（Pro 以上は回数制限なし）になっています（コストパフォーマンスが良いので、活用の価値が高い）。
-- [Pro 料金プラン](https://www.cursor.com/pricing)に「10 o1-mini uses per day」と明記されました。o1-mini モデルは10リクエスト/日が利用上限となります。
+- Pro/Business プランに含まれていない上限回数、追加料金のあるモデルは、次の表のようになっています（2024/10/17時点）
+![](images/Pricing_Details_table.png)
+- GPT-4o mini は料金体系上 cursor-small と同じ扱い（Pro 以上は回数制限なし）になっています（コストパフォーマンスが良いので、活用の価値が高い）。
 
 ### 📘 第2章 Cursor の基本操作
 

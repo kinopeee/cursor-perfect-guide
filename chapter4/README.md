@@ -14,7 +14,7 @@
 
 ### 📗 Composer
 
-![](../images/Composer_setting_0.42.png)
+![](../images/composer_setting_context.png)
 
 - enabled / disenabled：Composer のオン、オフの切り替え（デフォルト有効）
 - Always keep composer in bound：フローティング Composer を移動してもウィンドウの四辺から一定の処理を保つようになります。
@@ -24,6 +24,7 @@
 - Composer persistence：Cursorの再起動をまたいで履歴を保存します。
 - Iterate on lints (BETA)：lintエラーがある場合、コンポーザーは修正を再試行します。
 - Composer bar anchor：フローティング Composer がデフォルト表示される位置を設定します（Left / Center / Right から選択）。
+- Auto-apply to files outside context：コンテキスト外のファイルへの自動的な適用のオン/オフ切り替え（ハルシネーション防止のための設定）。
 
 ### 📗 Chat
 
@@ -46,13 +47,14 @@
 
 Copilot++ は Cursor Tab という呼称に変わりました。
 
-![](../images/cursor_tab_setting.png)
+![](../images/cursor_tab_setting_042.png)
 
 - enabled / disabled：Cursor Tab の有効、無効を切り替えます。
 - Partial Accepts：editor.action.inlineSuggest.acceptNextWordキーバインド（初期値→）を使用して、提案された次の単語を受け入れることができます。
 - Cursor Prediction：Cursor Tab の提案を受け入れた後に移動する次の行を予測し、タブで受け入れることができます。
 - Trigger in Comments：コメントで Cursor Tab の提案を有効または無効にする。
-- Auto Import：Cursor Tab で必要なモジュールをインポートする（TypeScriptとPythonのみ対応）。
+- Auto Import：Cursor Tab で必要なモジュールをインポートする（TypeScript）。
+- Auto Import for Python （Beta）：Cursor Tab で必要なモジュールをインポートする（Python）。
 
 ## 📘 4.4 ▼INTERPRETER MODE(BETA)
 
