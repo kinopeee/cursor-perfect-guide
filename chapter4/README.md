@@ -12,36 +12,20 @@
 
 また、インデックスされた日付、時刻も表示されるようになりました。
 
-### 📗 Composer
 
-![](../images/composer_setting_context.png)
+### 📗 Chat & Composer🌟New🌟
 
-- enabled / disenabled：Composer のオン、オフの切り替え（デフォルト有効）
-- Always keep composer in bound：フローティング Composer を移動してもウィンドウの四辺から一定の処理を保つようになります。
-- Cmd+P for file picker：Composer 内で ⌘+P（macOS）またはCtrl+P（Windows）ショートカットキーでファイルピッカーを表示することができます。
-- Show suggested files：Cursor が開くことを予測したファイルのリストが表示されます（薄い文字で表示されます）。
-- Collapse input box pills in pane：入力ボックスのコード、テキストを折りたたみ表示してスペースを節約します。
-- Composer persistence：Cursorの再起動をまたいで履歴を保存します。
+Chat と Composer の設定が統合されました。
+「コードベースとチャットし、コンポーザーで複数のファイルを一括で編集できます」
+
+![](../images/Chat_Composer_Setting.png)
+
+- Enable composer agent stickiness：コンポーザーエージェントの継続性を有効化（有効にすると、通常モードまたはエージェントモードの選択が新しいコンポーザーの会話でも維持されます）
+- Auto-scroll to bottom：自動スクロール（新しいメッセージが生成された際、コンポーザーペインを自動的に最下部までスクロールします）
+- Auto-apply to files outside context：コンテキスト外のファイルへの自動適用（コンポーザーによる変更を、現在のコンテキスト外のファイルにも自動適用することを許可します）
+- Collapse input box pills in pane or editor：ペインまたはエディタの入力ボックスのピルを折りたたむ（スペースを節約するため、コンポーザーペインまたはエディタ入力ボックスのピルを折りたたみます）
+- Render pills instead of blocks：ブロックの代わりにピルを表示（コンポーザーのコードブロックをコードブロックとして表示せず、ピルとして折りたたみます）
 - Iterate on lints (BETA)：lintエラーがある場合、コンポーザーは修正を再試行します。
-- Composer bar anchor：フローティング Composer がデフォルト表示される位置を設定します（Left / Center / Right から選択）。
-- Auto-apply to files outside context：コンテキスト外のファイルへの自動的な適用のオン/オフ切り替え（ハルシネーション防止のための設定）。
-
-### 📗 Chat
-
-![](../images/chat_setting.png)
-
-- Narrow scrollbar：AIペインのチャットエリア右横のスクロールバーの横幅が小さくなります。
-- Auto scroll chat：AIからの回答の長さに応じて自動的にスクロール表示します。その時プロンプト入力欄は下部に固定されます。
-
-![](../images/autoscrollchat.png)
-
-- Show chat history：プロンプト入力欄の下にチャット履歴が表示されます。
-
-![](../images/chat_history.png)
-
-- Show suggested files：ファイルピッカーの右横にお勧めのファイルが表示されます（以下の図の右2つはお勧めされたファイル）。
-
-![](../images/suggestedfiles.png)
 
 ### 📗 Cursor Tab
 
@@ -58,10 +42,9 @@ Copilot++ は Cursor Tab という呼称に変わりました。
 
 ## 📘 4.4 ▼INTERPRETER MODE(BETA)
 
-本書で何度もご紹介した Interpreter Mode は、0.40 からチャットモードのプルダウンで表示されなくなりました。廃止になったとの公式なアナウンスはありませんが、公式フォーラムで Interpreter Mode の不調に対して Composer で代替するアドバイスが Anysphere メンバーから付いていることから、廃止になった可能性があります。
-Composer はファイルの作成ができるので、大きくなったファイルのモジュール分けなどのタスクは代替が可能です。一方、生成されたコードの実行を代替する手段はないため、Normal Chat モードで生成したコードをファイトして保存して手動で実行する操作が必要になります。
+本書で何度かご紹介した Interpreter Mode は、0.40 からチャットモードのプルダウンで表示されなくなりました。
 
-以降の章で、Interpreter Mode を使用している場面では、この点を踏まえてお読み替えください。
+- Interpreter Mode はより強化された機能として、Composer の agent モードが実装されました。以降の章で、Interpreter Mode を使用している場面では、Composer agent をお使いください。Composer agent については、[第6章](../chapter6/README.md)の説明をご覧ください。
 
 ## 📘 4.5 Help
 

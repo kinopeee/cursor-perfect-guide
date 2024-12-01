@@ -13,6 +13,8 @@
     2. gpt-4o
     3. claude-3.5-sonnet
     4. claude-3-5-sonnet-20241022
+    5. claude-3.5-haiku
+- claude-3.5-haiku は1回のプレミアムリクエストの1/3としてカウントされます。
 - Pro/Business プランに含まれていない上限回数、追加料金のあるモデルは、次の表のようになっています（2024/10/17時点）
 ![](../images/Pricing_Details_table.png)
 - GPT-4o mini は料金体系上 cursor-small と同じ扱い（Pro 以上は回数制限なし）になっています（コストパフォーマンスが良いので、活用の価値が高い）。
