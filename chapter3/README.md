@@ -17,7 +17,7 @@ Interpreter Mode はバージョン 0.40 で、Long Context Chat は 0.43 で廃
 ![](../images/models_search.png)
 
 
-## 📘 チャット画面の刷新
+## 📘 ファイルピッカーの追加
 
 0.40 でチャットの画面や操作性が刷新され、ファイルピッカーが追加されました。
 
@@ -31,6 +31,14 @@ Interpreter Mode はバージョン 0.40 で、Long Context Chat は 0.43 で廃
 
 現状、Composer と異なり、複数ファイルに対して一括更新を確定することはできません。各ファイルごとに「Apply」操作を実行する必要はあります。
 
+## 📘 apply above ボタンの追加
+
+修正コードが提示され、Apply ボタンが表示されていた際、プロンプト入力欄右下のボタンが「apply above」ボタンと表示されます。プロンプト入力欄にカーソルがある状態であれば、Cmd(⌘)+Enter で Apply することができます。
+
+![](../images/Chat_Apply.png)
+
+## 📘 Copy Message ボタンの追加
+
 また、チャットの回答欄下に表示される「Copy Message」ボタンをクリックすると、チャットの回答内容をコピーすることができます。
 
 ![](../images/CopyMessage.png)
@@ -38,7 +46,7 @@ Interpreter Mode はバージョン 0.40 で、Long Context Chat は 0.43 で廃
 「WILL USE」「USED」欄で表示されていた参照情報が、更新対象ファイルと並列で表示されるようになりました。
 
 ![](../images/chat_ref.png)
-
+![alt text](../images/Chat_Apply.png)
 各参照情報をクリックして、内容を拡大表示、折りたたみができます。
 また、以前は手動で指定した参照以外は削除できませんでしたが、各参照に×マークが付いて自由に削除できるようになりました。
 
