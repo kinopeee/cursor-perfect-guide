@@ -4,7 +4,7 @@
 
 ## 📘 3.1 Chat（AIチャット機能）
 
-## 📘 ▼チャットモードの切り替え 🌟New🌟
+## 📘 ▼チャットモードの切り替え
 
 Interpreter Mode はバージョン 0.40 で、Long Context Chat は 0.43 で廃止になり、チャットモードの切り替えの機能は廃止になりました（プルダウンは表示されません）。
 - Interpreter Mode はより強化された機能として、Composer の agent モードが実装されました。以降の章で、Interpreter Mode を使用している場面では、Composer agent をお使いください。Composer agent については、[第6章](../chapter6/README.md)の説明をご覧ください。
@@ -79,6 +79,19 @@ Interpreter Mode はバージョン 0.40 で、Long Context Chat は 0.43 で廃
 > We have made slight improvements to Debug with AI and added back @Lint Errors in Chat.
 - https://changelog.cursor.com/?nightly=true#042---composer-history-lint-errors-vs-code-1931-
 
+![](../images/symbols.png)
+
+## 📘「@Summarized Composers参照」
+
+Composers セッションの要約を参照することができます。セッションの内容を継承したAIとの対話が可能です。
+
+## 📘「@Cursor Rules参照」
+
+プロジェクトレベルのルール「Project Rules」を参照することができます。
+
+## 📘「@Recent Changes参照」
+
+git commit以前の直前の保存との差分を参照することができます。
 
 ## 📘「@Recommended参照」
 
