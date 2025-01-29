@@ -29,6 +29,10 @@ Composer agent の操作手順は以下のようになります。
    ![](../images/Composer_Command.png)
 7. タスクを完了すると、自律処理を終了します。
 
+- Yolo mode を有効にすると、エージェントが自動的にターミナルコマンドを実行する機能が有効になります。
+- allowlist に設定されたコマンドのみ（承認を求めて停止せず）自動実行されます。
+- denylist に設定されたコマンドは自動実行されません。
+
 書籍の Interpreter Mode を用いた操作の部分は Composer の agent で置き換えが可能です。
 Interpreter Mode の「auto-execute」ボタンを実行する代わりに、Composer agent を使って操作を進めてください。
  

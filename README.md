@@ -26,16 +26,17 @@
 | 2024/09/10 | 「Debug with AI」が日本語で回答するようになった点の反映。                                                                                                                                                                                                  |
 | 2024/09/12 | 第2章、第3章のスクリーンショット画像を掲載。                                                                                                                                                                                                               |
 | 2024/09/13 | 第4章、第5章、第6章のスクリーンショット画像を掲載。                                                                                                                                                                                                        |
-| 2024/09/21 | 追補 Composer の内容を [0.41](https://changelog.cursor.com/?nightly=true#041---cursor-tab-python-auto-import-composer-improvements-remote-ssh-to-mac-support) に対応。AI 内ペイン表示、コントロールパネルのウィンドウ化、0.41 その他の変更点の説明を追記。 |
+| 2024/09/21 | 追補 Composer の内容を 0.41 に対応。AI 内ペイン表示、コントロールパネルのウィンドウ化、0.41 その他の変更点の説明を追記。 |
 | 2024/09/22 | 第4章に Cursor Tab の設定説明を追記。Composer 設定説明のアップデート。                                                                                                                                                                                     |
 | 2024/09/25 | o1-mini の利用上限についての記載を追加（第1章、本ページ）。                                                                                                                                                                                                |
-| 2024/10/11 | [0.42](https://changelog.cursor.com/?nightly=true#042---composer-history-lint-errors-vs-code-1931) に対応。                                                                                                                                                |
+| 2024/10/11 | 0.42 に対応。                                                                                                                                                |
 | 2024/10/13 | 0.42 での Composer 設定の変更に対応。                                                                                                                                                                                                                      |
 | 2024/10/17 | 0.42.3 対応（Composer のコンテキスト外ファイルへの適用設定）。料金表の掲載。                                                                                                                                                                               |
 | 2024/10/19 | 「AIエディタCursor完全ガイド」出版＋重版＆創業30周年記念Tシャツプレゼント・キャンペーン情報の掲載。                                                                                                                                                        |
 | 2024/10/23 | 高速プレミアムモデルのリストに「claude-3-5-sonnet-20241022」を追加。                                                                                                                                                                                       |
 | 2024/10/29 | 第3章にチャットからのファイル作成が可能になった点を追記。                                                                                                                                                                                                  |
-| 2024/12/02 | [0.43](https://changelog.cursor.com/?nightly=true#043---new-composer-ui-agent-commit-messages) に対応。書籍のInterpreter Modeを用いた手順はComposerのagentをお使いください。                                                                               |
+| 2024/12/02 | [0.43](https://www.cursor.com/changelog/agent-improvements-yolo-mode-cursor-tab-update) に対応。書籍のInterpreter Modeを用いた手順はComposerのagentをお使いください。                                                                               |
+| 2025/01/29 | [0.45](https://www.cursor.com/changelog/-cursor-rules-better-codebase-understanding-new-tab-model) に対応。                                                                               |
 
 
 ## 📕 このリポジトリの構成

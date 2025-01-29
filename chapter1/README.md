@@ -14,6 +14,13 @@
     3. claude-3.5-sonnet
     4. claude-3-5-sonnet-20241022
     5. claude-3.5-haiku
+    8. gemini-2.0-flash-exp
+    9. gemini-2.0-flash-thinking-exp
+    10. gemini-exp-1206
+    11. deepseek-v3
+    12. deepseek-r1
+
+- deepseek モデルはプレミアムモデルではあっても、使用しても高速リクエスト枠が消費されないようです（2025/1/29時点）。
 - claude-3.5-haiku は1回のプレミアムリクエストの1/3としてカウントされます。
 - Pro/Business プランに含まれていない上限回数、追加料金のあるモデルは、次の表のようになっています（2024/10/17時点）
 ![](../images/Pricing_Details_table.png)
