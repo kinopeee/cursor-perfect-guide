@@ -62,9 +62,11 @@ Copilot++ は Cursor Tab という呼称に変わりました。
 ※ Composer の agent モードのみで対応しています。
 
 1. 「Add new MCP server」ボタンでクリック。
-![](../images/MCPServerSetting1.png)
+    ![](../images/MCPServerSetting1.png)
+
 2. サーバー名、タイプ、URLを指定。
-![](../images/MCPServerSetting2.png)
+    ![](../images/MCPServerSetting2.png)
+
 3. 「Add」ボタンでサーバーの設定を保存。
 
 MCPの説明や、MCPの設定方法については、[Cursor のModel Context Protocol 設定ドキュメント](https://docs.cursor.com/advanced/model-context-protocol)をご覧ください。
