@@ -10,11 +10,11 @@
 - AIエージェントが自動的に適切なルールを選択して従います。
 - プロジェクトのコードベースと同期される仕組みになっています。
 
-1. 「+ Add new rule」ボタンで新規作成。
-    ![](../images/ProjectRules1.png) 
-2. ルールのファイル名を指定。
-![](../images/ProjectRules2.png) 
-3. ルールの内容を記述：説明文 (タスクの目的や用途、@でファイル参照を指定可能)、Globs (ファイルパスのパターン)
+1. 「+ Add new rule」ボタンで新規作成。  
+    ![](../images/ProjectRules1.png)   
+2. ルールのファイル名を指定。  
+![](../images/ProjectRules2.png)   
+3. ルールの内容を記述：説明文 (タスクの目的や用途、@でファイル参照を指定可能)、Globs (ファイルパスのパターン)  
     ![](../images/ProjectRules3.png)
 
 
