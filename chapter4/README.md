@@ -61,13 +61,13 @@ Copilot++ は Cursor Tab という呼称に変わりました。
 バージョン 0.45.6 から MCP の設定が追加されました（MCP は Model Context Protocol の略で、Cursor のモデルにコンテキストを提供するプロトコルです）。
 ※ Composer の agent モードのみで対応しています。
 
-1. 「Add new MCP server」ボタンでクリック。
+1. 「Add new MCP server」ボタンでクリック。  
     ![](../images/MCPServerSetting1.png)
 
-2. サーバー名、タイプ、URLを指定。
+2. サーバー名、タイプ、URLを指定。  
     ![](../images/MCPServerSetting2.png)
 
-3. 「Add」ボタンでサーバーの設定を保存。
+3. 「Add」ボタンでサーバーの設定を保存。  
 
 MCPの説明や、MCPの設定方法については、[Cursor のModel Context Protocol 設定ドキュメント](https://docs.cursor.com/advanced/model-context-protocol)をご覧ください。
 
