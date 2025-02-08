@@ -37,7 +37,7 @@
 | 2024/10/29 | 第3章にチャットからのファイル作成が可能になった点を追記。                                                                                                                                                                                                  |
 | 2024/12/02 | [0.43](https://www.cursor.com/changelog/agent-improvements-yolo-mode-cursor-tab-update) に対応。書籍のInterpreter Modeを用いた手順はComposerのagentをお使いください。                                                                               |
 | 2025/01/29 | [0.45](https://www.cursor.com/changelog/-cursor-rules-better-codebase-understanding-new-tab-model) に対応。                                                                               |
-
+| 2025/02/08 | 0.45.6 で対応した MCP（Model Context Protocol） 設定についての説明を追加。                                                                                                                                                                                      |
 
 ## 📕 このリポジトリの構成
 

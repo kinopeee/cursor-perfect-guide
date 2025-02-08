@@ -22,14 +22,18 @@
 
 ## 📘 4.3 Features 
 
-### 📗 Docs
+### 📗 Cursor Tab
 
-カスタム Docs のリスト内に再インデックスを行うボタン（回る矢印アイコン）が追加されました。実行すると、ドキュメントの最新情報にアクセスして、新しい情報のインデックスを構築します。
+Copilot++ は Cursor Tab という呼称に変わりました。
 
-![](../images/docs_on_features.png)
+![](../images/cursor_tab_setting_042.png)
 
-また、インデックスされた日付、時刻も表示されるようになりました。
-
+- enabled / disabled：Cursor Tab の有効、無効を切り替えます。
+- Partial Accepts：editor.action.inlineSuggest.acceptNextWordキーバインド（初期値→）を使用して、提案された次の単語を受け入れることができます。
+- Cursor Prediction：Cursor Tab の提案を受け入れた後に移動する次の行を予測し、タブで受け入れることができます。
+- Trigger in Comments：コメントで Cursor Tab の提案を有効または無効にする。
+- Auto Import：Cursor Tab で必要なモジュールをインポートする（TypeScript）。
+- Auto Import for Python （Beta）：Cursor Tab で必要なモジュールをインポートする（Python）。
 
 ### 📗 Chat & Composer
 
@@ -52,19 +56,27 @@
     2. Auto-run：自動実行します。
     3. Disabled：無効にします。
 
+### 📗 MCP (Model Context Protocol)
 
-### 📗 Cursor Tab
+バージョン 0.45.6 から MCP の設定が追加されました（MCP は Model Context Protocol の略で、Cursor のモデルにコンテキストを提供するプロトコルです）。
+※ Composer の agent モードのみで対応しています。
 
-Copilot++ は Cursor Tab という呼称に変わりました。
+1. 「Add new MCP server」ボタンでクリック。
+![](../images/MCPServerSetting1.png)
+2. サーバー名、タイプ、URLを指定。
+![](../images/MCPServerSetting2.png)
+3. 「Add」ボタンでサーバーの設定を保存。
 
-![](../images/cursor_tab_setting_042.png)
+MCPの説明や、MCPの設定方法については、[Cursor のModel Context Protocol 設定ドキュメント](https://docs.cursor.com/advanced/model-context-protocol)をご覧ください。
 
-- enabled / disabled：Cursor Tab の有効、無効を切り替えます。
-- Partial Accepts：editor.action.inlineSuggest.acceptNextWordキーバインド（初期値→）を使用して、提案された次の単語を受け入れることができます。
-- Cursor Prediction：Cursor Tab の提案を受け入れた後に移動する次の行を予測し、タブで受け入れることができます。
-- Trigger in Comments：コメントで Cursor Tab の提案を有効または無効にする。
-- Auto Import：Cursor Tab で必要なモジュールをインポートする（TypeScript）。
-- Auto Import for Python （Beta）：Cursor Tab で必要なモジュールをインポートする（Python）。
+### 📗 Docs
+
+カスタム Docs のリスト内に再インデックスを行うボタン（回る矢印アイコン）が追加されました。実行すると、ドキュメントの最新情報にアクセスして、新しい情報のインデックスを構築します。
+
+![](../images/docs_on_features.png)
+
+また、インデックスされた日付、時刻も表示されるようになりました。
+
 
 ## 📘 4.4 Beta
 
