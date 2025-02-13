@@ -7,21 +7,8 @@
 
 ## 📗 Cursorの料金体系（P3）
 
-- 「高速 GTP-4」という呼び方から「高速プレミアムモデル」に変更になっています。
-- 「高速プレミアムモデル」には下記モデルが含まれます。
-    1. gpt-4
-    2. gpt-4o
-    3. claude-3.5-sonnet
-    4. claude-3-5-sonnet-20241022
-    5. claude-3.5-haiku
-    8. gemini-2.0-flash-exp
-    9. gemini-2.0-flash-thinking-exp
-    10. gemini-exp-1206
-    11. deepseek-v3
-    12. deepseek-r1
-
-- deepseek モデルはプレミアムモデルではあっても、使用しても高速リクエスト枠が消費されないようです（2025/1/29時点）。
-- claude-3.5-haiku は1回のプレミアムリクエストの1/3としてカウントされます。
-- Pro/Business プランに含まれていない上限回数、追加料金のあるモデルは、次の表のようになっています（2024/10/17時点）
-![](../images/Pricing_Details_table.png)
-- GPT-4o mini は料金体系上 cursor-small と同じ扱い（Pro 以上は回数制限なし）になっています（コストパフォーマンスが良いので、活用の価値が高い）。
+- 料金体系が変更になり、「プレミアムモデル」に対する「高速リクエスト」がプランの上限に達すると、低速モードとなり、高速リクエストの追加購入は500回単位の枠ではなく、リクエスト回数ごとの従量課金に変更されました。
+- モデルごとに、プレミアムモデルかそれ以外か、リクエストごとの単価、ホストプロバイダー、Composer agentでの利用可能かなどの表が次のページに掲載されています。
+[Cursor – Models](https://docs.cursor.com/settings/models)
+- 高速、低速リクエストの違い、使用量ベースの価格設定、請求の上がるタイミング、請求額の例などの説明が次のページに記載されています。
+[Cursor – Usage](https://docs.cursor.com/account/usage)
