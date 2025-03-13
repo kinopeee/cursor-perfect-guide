@@ -1,7 +1,5 @@
 # 「AIエディタCursor完全ガイド」 サポートリポジトリ
 
-## 🌟🌟[「AIエディタCursor完全ガイド」出版＋重版＆創業30周年記念Tシャツプレゼント・キャンペーン](https://www.key-planning.co.jp/30th_anniversary_tshirt/ )を開始しました。ぜひご応募ください！🌟🌟
-
 ## 📕 このGitHubリポジトリについて
 
 書籍「AIエディタCursor完全ガイド」 について下記のサポートを行うリポジトリです。
